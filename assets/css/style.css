@@ -973,7 +973,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/about1.png") center center no-repeat;
   background-size: cover;
   min-height: 300px;
   height: 500px;
@@ -1709,6 +1709,18 @@ section {
   }
 }
 
+@media (max-width: 992px) {
+.testimonials .testimonial-item {
+  min-height: 394px;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonials1 .testimonial-item {
+    min-height: 394px;
+    }
+  }
+  
 .testimonials1 {
   padding: 80px 0 100px;
   background: url("../img/foto1.jpg") no-repeat;
@@ -2202,6 +2214,14 @@ margin-bottom: 60px;
 @media (max-width: 400px) {
   .faq {
  background-image: url("../img/faq-01.png");
+ background-position: top center;
+  }
+}
+
+@media (max-width: 395px) {
+  .faq {
+ background-image: url("../img/faq2-01.png");
+ background-position: top right;
   }
 }
 
